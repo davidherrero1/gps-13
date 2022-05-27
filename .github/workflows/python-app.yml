@@ -32,3 +32,4 @@ jobs:
         run: |
           pytest main.py test.py
           coverage run -m pytest main.py test.py
+          coverage html
